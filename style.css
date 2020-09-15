@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-image: url(images12.jpg);
+  }
+  a:link{
+    color: cornflowerblue;
+}
+a:visited{
+    color: forestgreen;
+}
+  h1{
+    color: white;
+  }
+  .p{
+    background-image: url(back2.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Gotham Rounded;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+  img{
+      border: 2px solid black;
+      margin: 50px;
+      padding: 15px 30px;
+      border-radius: 50px;
+      border-width: 5px;
+      padding:20px;
+      box-shadow: 0 0 10px 5px;
+  }
+  .header{
+    background-image: url(back2.jpg);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .site-description{
+      display: flex;
+      flex-direction: column;
+      justify-content: first baseline;
+  }
+  .grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+  border-radius: 20px;
+  padding: 30px;
+  margin: 25px;
+  width: 310px;
+  position: relative;
+}
+.item p{
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: darkgoldenrod;
+}
+.item:hover p{
+  opacity:1;
+}
+.item:hover img{
+  opacity: 0.33;
+}
